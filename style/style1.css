@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #FFFDD0;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   margin-right: 100px;
+    /* margin-top: 20px; */
+    background-color: #141611;
+    position: fixed;
+} 
+
+    
+ 
+   
+
+   
+
+
+
+
+.search-box{
+    display: flex;
+    margin-right: 450px;
+
+}
+
+.btn{
+    background-color: #3ff10e;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.text{
+
+    width: 400px;
+}
+
+/* .input-group-btn {
+    
+} */
+
+nav ul { 
+    display: flex;
+   gap: 30px;
+   font-weight: 700;
+   align-items: center;
+   margin-right: 100px;
+   list-style: none;
+
+
+}
+
+.whatsup{
+  color: #25D366;
+}
+
+/* .logo :first-child{
+    gap: 30px; 
+    /*imp term*/
+     /* margin-right: 700px; */
+/* }  */
+
+
+.img1{
+    margin-bottom: 300px  ;
+
+}
+
+/* <!-- shopping cards --> */
+
+.shopping-cards{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  /* footer1 */
+  .footer1{
+
+    display: flex;
+    
+    gap: 500px;
+    margin: 40px;
+    background-color: #131010;
+  }
+
+  .follow-social-media{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+
+  .follow-on-social-media {
+
+    color: chartreuse;
+  }
+
+  .twitter{
+    color: #1DA1F2
+    ;
+  }
+  .linkedin{
+    color: rgb(10, 102, 194);
+  }
+
+  .instagram{
+    color: #C13584
+    ;
+  }
+
+  .telegram{
+    color: #0088cc;
+  }
+
+  .left-side{
+    display: flex;
+    gap: 20px;
+  }
+  .detail-text{
+    text-align: center;
+  }
+  .phone a i{
+    list-style: none;
+    color: white;
+    /* display: block; */
+
+  }
+  .phone{
+    color: white;
+
+  }
+
